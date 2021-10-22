@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.greenLine {
+  height: 10px;
+  background-color: #2dcb71;
+}
+
+header {
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-body{
+    margin-left: 115px;
+}
+
+header img {
+  padding-top: 170px;
+  padding-bottom: 60px;
+}
+
+header p {
+  max-width: 469px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Helvetica Neue";
+  padding-bottom: 25px;
+}
+
+.icons {
+  padding-bottom: 150px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #000;
+  position: relative;
+  opacity: 0.5;
+}
+
+.icons i {
+  color: #ffff;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icons a:hover{
+    background-color: #2dcb71;
+    opacity: 1;
+}
+
+.head-body{
+    background-image: url('img/hand.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+
+@media only screen and (max-width:992){
+    .head-body{
+        background-image: url('img/hand.png');
+    }
+    
+}
+
+
+@media only screen and (max-width:768px){
+    .head-body{
+        margin-left: 10px;
+        background-image: none;
+    }
+    @media only screen and (max-width:768px){
+      #iki{
+        margin-left: 10px;
+      }
+    }
+    
+}
+
+#iki{
+  width: auto;
+  background-color: #ffffff;
+  text-align: center;
+   display: flex;
+   justify-content: space-between;
+    
+    
+}
+#iki a{ 
+  margin-top: 60px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  background-color:#2dcb71;
+  position: relative;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  
+}
+  
+
+#iki i{
+  color: #ffff;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#iki h1{
+  margin-top: 30px;
+  font-size: 22px;
+line-height: 18px;
+color: #222222;
+font-weight: 600;
+font-family: "Raleway";
+text-align: center;
+}
+#iki p{
+  margin-top: 25px;
+  margin-bottom: 55px;
+  width: 358px;
+height: 130px;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Helvetica Neue";
+text-align: center;
+}
+#uc{
+  width: auto;
+text-align: center;
+  background-color: #e3e3e3;
+  display: flex;
+   justify-content: space-between;
+   
+}
+#uc h1{ margin-top: 55px;
+  font-size: 22px;
+line-height: 18px;
+color: #222222;
+font-weight: 600;
+font-family: "Raleway";
+text-align: center;
+}
+#uc p{ margin-top: 30px;
+  width: 541px;
+height: 115px;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Helvetica Neue";
+text-align: center;
+}
+#uc input{
+  font-size: 18px;
+line-height: 18px;
+color: #848484;
+font-family: "Helvetica Neue";
+border: none;
+  width: 446px;
+height: 56px;
+border-radius: 15px;
+background-color: #ffffff;
+padding-left: 12px;
+text-align: center;
+
+}
+
+#uc button{
+  
+  font-size: 22px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  width: 141px;
+height: 56px;
+border-radius: 15px;
+background-color: #2ecc71;
+border: none;
+}
